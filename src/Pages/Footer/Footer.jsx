@@ -4,8 +4,8 @@ import { IoMdCall } from 'react-icons/io';
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer p-10 bg-white text-black w-11/12 mx-auto">
+    <div className='border-t-2'>
+      <footer className="footer p-10 bg-white text-black w-11/12 mx-auto ">
   <aside>   
     <h1 className="text-3xl font-bold text-blue">Health Fair</h1>
     <div className='flex gap-2 text-gray-600 mt-5'>

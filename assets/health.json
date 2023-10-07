@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Primary Care Consultation",
+    "price": "$80",
+    "image": "https://i.ibb.co/M8ZBdTZ/male-doctor-examining-patient.jpg",
+    "details": "Comprehensive consultation with a primary care physician for general health concerns."
+  },
+  {
+    "id": "2",
+    "title": "Dental Checkup",
+    "price": "$120",
+    "image": "https://i.ibb.co/FWqT12T/heal-specialist-procedure-cure-patient.jpg",
+    "details": "Routine dental examination, cleaning, and X-rays for maintaining oral health."
+  },
+  {
+    "id": "3",
+    "title": "https://i.ibb.co/XpgzLw6/explaining-x-ray-results-patient.jpg",
+    "price": "$150",
+    "image": "https://example.com/orthopedic-evaluation-image.jpg",
+    "details": "Specialized evaluation and diagnosis for musculoskeletal conditions and injuries."
+  },
+  {
+    "id": "4",
+    "title": "Mental Health Counseling",
+    "price": "$90",
+    "image": "https://i.ibb.co/XD3QFwK/appointment-psychologist.jpg",
+    "details": "Individual or group counseling sessions with licensed mental health professionals."
+  },
+  {
+    "id": "5",
+    "title": "Lab Tests Package",
+    "price": "$60",
+    "image": "https://i.ibb.co/P5Kkjhq/lab-doctor-performing-medical-exam-urine.jpg",
+    "details": "A package of common lab tests to assess overall health and detect medical conditions."
+  },
+  {
+    "id": "6",
+    "title": "Physical Therapy Session",
+    "price": "$100",
+    "image": "https://example.com/physical-therapy-image.jpg",
+    "details": "One-on-one physical therapy session to aid in recovery from injuries and improve mobility."
+  }
+]

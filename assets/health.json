@@ -15,9 +15,9 @@
   },
   {
     "id": "3",
-    "title": "https://i.ibb.co/XpgzLw6/explaining-x-ray-results-patient.jpg",
+    "title": "Orthopedic Evaluation",
     "price": "$150",
-    "image": "https://example.com/orthopedic-evaluation-image.jpg",
+    "image": "https://i.ibb.co/XpgzLw6/explaining-x-ray-results-patient.jpg",
     "details": "Specialized evaluation and diagnosis for musculoskeletal conditions and injuries."
   },
   {
@@ -38,7 +38,7 @@
     "id": "6",
     "title": "Physical Therapy Session",
     "price": "$100",
-    "image": "https://example.com/physical-therapy-image.jpg",
+    "image": "https://i.ibb.co/c6cg53H/young-physiotherapist-examining-customer-s-leg-while-colleague-noting-clipboard-hospital.jpg",
     "details": "One-on-one physical therapy session to aid in recovery from injuries and improve mobility."
   }
 ]

@@ -13,12 +13,12 @@ const navLink = <>
     <span className="flex justify-center items-center p-2 text-lg">
     <NavLink to="/" className={({isActive}) => isActive ? activeLink:normalLink}>Home</NavLink>
     </span>
-    <span className="flex justify-center items-center p-2 text-lg mx-2">
+    {/* <span className="flex justify-center items-center p-2 text-lg mx-2">
     <NavLink to="/login" className={({isActive}) => isActive ? activeLink:normalLink} >login</NavLink>
     </span>
     <span className="flex justify-center items-center p-2 text-lg">
     <NavLink to="/register" className={({isActive}) => isActive ? activeLink:normalLink}>register</NavLink>
-    </span>
+    </span> */}
 
 
 

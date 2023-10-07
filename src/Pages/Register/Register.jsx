@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import { FcGoogle } from 'react-icons/fc';
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -36,7 +37,7 @@ const Register = () => {
     <div>
       <div className='mb-10'>
                 <h2 className="text-3xl my-3 text-center">Register</h2>
-                <form  onSubmit={handleRegister} className=" md:w-3/4 lg:w-1/2 mx-auto">
+                <form  onSubmit={handleRegister} className="w-4/5 md:w-2/4 lg:w-1/3 mx-auto">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Email</span>
@@ -59,6 +60,13 @@ const Register = () => {
                 {registerError && <p className="text-center text-red mt-2">{registerError}</p>}
                 <p className="text-center mt-4">Already have an account? <Link className="text-blue font-bold" to="/login">Login</Link></p>
                 <ToastContainer />
+                <hr className="w-3/5 mx-auto my-3 "/>
+                <div className="flex justify-center items-center ">
+                <button className="mx-auto btn border-blue  w-fit ">
+                    <FcGoogle className="text-blue text-2xl"></FcGoogle>
+                    Login with Google
+                </button>
+                </div>
             </div>
     </div>
   );

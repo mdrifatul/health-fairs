@@ -51,7 +51,7 @@ const Navbar = () => {
         {navLink}
       </ul>
     </div>
-    <Link to='/' className="px-6 font-semibold normal-case text-2xl text-blue">Health Fair</Link>
+    <Link to='/' className="px-6 font-semibold text-xl md:text-3xl text-blue">Health Fair</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -61,14 +61,14 @@ const Navbar = () => {
   <div className="navbar-end">
       
     {
-      user ?
-      <>
-      <p>{user.email}</p>
-      <label className="btn btn-ghost btn-circle avatar mr-2">
-        <div className="w-10 rounded-full">
-          <img src={userPicture} />
-        </div>
-      </label>
+        user ?
+     <>
+        <p className="invisible md:visible">{user.email}</p>
+        <label className="mr-2">
+          <div className="w-10 rounded-full mx-auto md:mr-2 md:ml-2">
+            <img src={userPicture} />
+          </div>
+        </label>
       <button className="btn bg-blue text-white hover:bg-blue" onClick={handlelogOut}>logout</button>
       </>
       : <Link  to='login'><button className="btn bg-blue text-white hover:bg-blue">login</button></Link>

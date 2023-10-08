@@ -4,9 +4,9 @@ import { IoMdCall } from 'react-icons/io';
 
 const Footer = () => {
   return (
-    <div className='border-t-2'>
+    <div data-aos='fade-up' data-aos-duration="500" className='border-t-2'>
       <footer className="footer p-10 bg-white text-black w-11/12 mx-auto ">
-  <aside>   
+  <aside >   
     <h1 className="text-3xl font-bold text-blue">Health Fair</h1>
     <div className='flex gap-2 text-gray-600 mt-5'>
       <AiOutlineMail className=' text-xl'></AiOutlineMail>
@@ -17,7 +17,7 @@ const Footer = () => {
       <p className=' font-bold'>68 Erie St, Jersey City, NJ 07302</p>
     </div>
   </aside> 
-  <nav>
+  <nav >
     <h1 className="text-xl text-gray-600 font-bold">Social</h1> 
     <div className="grid grid-flow-col gap-4 my-5 text-4xl">
     <AiOutlineFacebook className='text-[#3b5998]'></AiOutlineFacebook>
@@ -25,7 +25,7 @@ const Footer = () => {
     <AiFillTwitterSquare className='text-[#55acee]'></AiFillTwitterSquare>
     </div>
   </nav>
-  <nav>
+  <nav >
     {/* <h1 className="text-xl text-gray-600 font-bold">contact</h1> */}
     <div className='flex mt-5 gap-2'>
     <IoMdCall className='text-5xl text-gray-600'></IoMdCall>

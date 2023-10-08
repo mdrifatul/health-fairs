@@ -3,10 +3,10 @@ import Navbar from './../Shared/Navbar';
 
 const Root = () => {
   return (
-    <div>
-      <Navbar></Navbar>
+    <>
+      <div data-aos='fade-down'><Navbar></Navbar></div>
       <Outlet></Outlet>
-    </div>
+    </>
   );
 };
 

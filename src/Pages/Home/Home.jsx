@@ -4,11 +4,11 @@ import Banner from './../Banner/Banner';
 import Services from './../Services/Services';
 const Home = () => {
   return (
-    <div>
-      <Banner></Banner>
+    <>
+      <div data-aos='fade-up'><Banner></Banner></div>
       <Services></Services>
-      <Footer></Footer>
-    </div>
+      <div><Footer></Footer></div>
+    </>
   );
 };
 

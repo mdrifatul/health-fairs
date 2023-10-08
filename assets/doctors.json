@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "service": "Cardiologist",
+    "doctor_name": "Dr. Emily Carter",
+    "image": "https://i.ibb.co/NxFhnkX/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-postur.jpg",
+    "details": "Dr. Emily Carter is a board-certified cardiologist with over 15 years of experience. She specializes in the diagnosis and treatment of heart diseases and offers personalized care for her patients."
+  },
+  {
+    "id": "2",
+    "service": "Pediatrician",
+    "doctor_name": "Dr. James Anderson",
+    "image": "https://i.ibb.co/DKK4z0S/smiling-doctor-with-strethoscope-isolated-grey.jpg",
+    "details": "Dr. James Anderson is a caring pediatrician who has been providing healthcare to children of all ages for more than two decades. He is dedicated to ensuring the well-being and healthy development of your child."
+  },
+  {
+    "id": "3",
+    "service": "Dermatologist",
+    "doctor_name": "Dr. Sarah Johnson",
+    "image": "https://i.ibb.co/s9zgZwr/portrait-doctor.jpg",
+    "details": "Dr. Sarah Johnson is a renowned dermatologist known for her expertise in diagnosing and treating skin conditions. She offers a wide range of skincare services and is committed to helping patients achieve healthy skin."
+  },
+  {
+    "id": "4",
+    "service": "Orthopedic Surgeon",
+    "doctor_name": "Dr. Michael Wilson",
+    "image": "https://i.ibb.co/PwfGzzH/african-medical-doctor-man-isolated-white-background-1.jpg",
+    "details": "Dr. Michael Wilson is a highly skilled orthopedic surgeon specializing in joint replacements and sports medicine. He is committed to restoring mobility and relieving pain in his patients."
+  },
+  {
+    "id": "5",
+    "service": "Psychiatrist",
+    "doctor_name": "Dr. Lisa Martinez",
+    "image": "https://i.ibb.co/G3KSb95/portrait-happy-young-smiling-female-doctor-holding-medical-record-clipboard.jpg",
+    "details": "Dr. Lisa Martinez is a compassionate psychiatrist who offers mental health evaluations and treatment for a wide range of emotional and psychological issues. She believes in a holistic approach to mental wellness."
+  },
+  {
+    "id": "6",
+    "service": "Obstetrician-Gynecologist",
+    "doctor_name": "Dr. Maria Rodriguez",
+    "image": "https://i.ibb.co/GkgNShH/beautiful-female-doctor-white-coat-standing-arms-crossed-white-wall.jpg",
+    "details": "Dr. Maria Rodriguez is a dedicated OB-GYN with a focus on women's reproductive health. She provides comprehensive care for women of all ages, from prenatal care to menopause management."
+  }
+]

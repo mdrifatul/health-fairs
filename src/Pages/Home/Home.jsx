@@ -11,7 +11,7 @@ const Home = () => {
       <Services></Services>
       <div data-aos='fade-right'><Research></Research></div>
       <div data-aos='fade-left'><Consult></Consult></div>
-      <div><Footer></Footer></div>
+      <div data-aos='fade-up'><Footer></Footer></div>
     </>
   );
 };

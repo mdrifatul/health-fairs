@@ -4,7 +4,7 @@ import { IoMdCall } from 'react-icons/io';
 
 const Footer = () => {
   return (
-    <div data-aos='fade-up' data-aos-duration="500" className='border-t-2'>
+    <div className='border-t-2'>
       <footer className="footer p-10 bg-white text-black w-11/12 mx-auto ">
   <aside >   
     <h1 className="text-3xl font-bold text-blue">Health Fair</h1>

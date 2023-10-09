@@ -4,13 +4,13 @@ import Detail from './Detail';
 
 const Details = () => {
   const [card, setCard] = useState({});
-  const loadData = useLoaderData();
+  const loaderData = useLoaderData();
   const {id} = useParams();
 
   useEffect(()=>{
-    const findData = loadData.find(card => card.id === id)
+    const findData = loaderData.find(card => card.id === id)
     setCard(findData)
-  },[id,loadData])
+  },[id,loaderData])
 
   return (
     <div>

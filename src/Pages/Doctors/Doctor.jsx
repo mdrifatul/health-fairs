@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Doctor = ({ card }) => {
   const { service, doctor_name, image, details } = card;
   return (
@@ -19,5 +21,9 @@ const Doctor = ({ card }) => {
     </>
   );
 };
+
+Doctor.propTypes = {
+  card: PropTypes.object
+}
 
 export default Doctor;

@@ -6,7 +6,7 @@ const Services = () => {
   const [serviceCards, setServicecards] = useState([]);
 
   useEffect(()=>{
-    fetch('/assets/health.json')
+    fetch('./health.json')
     .then(res => res.json())
     .then(data => setServicecards(data))
   },[])

@@ -90,8 +90,9 @@ const Register = () => {
               Register
             </button>
           </div>
+        </form>
 
-          {registerError && (
+        {registerError && (
             <p className="text-center text-red mt-2">{registerError}</p>
           )}
           <p className="text-center mt-4">
@@ -108,7 +109,7 @@ const Register = () => {
               Login with Google
             </button>
           </div>
-        </form>
+          
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ const Service = ({card}) => {
   const {id,title, image,price,details } = card;
   return (
     <div>
-      <div data-aos="fade-up" data-aos-duration="1000" className="card card-compact bg-base-100 shadow-xl lg:h-fit rounded-none">
+      <div data-aos="fade-up" data-aos-duration="600" className="card card-compact bg-base-100 shadow-xl lg:h-fit rounded-none">
         <figure><img className="w-full h-52" src={image} alt="Shoes" /></figure>
         <div className="card-body" >
           <h2 className="card-title text-2xl font-bold">{title}</h2>

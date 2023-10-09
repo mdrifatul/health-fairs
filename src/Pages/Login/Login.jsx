@@ -35,6 +35,7 @@ const Login = () => {
         signInWithGoogle()
         .then(result =>{
           console.log(result.user);
+          console.log(location);
           navigate(location?.state ? location.state : '/')
         })
         .catch(error =>{
@@ -66,18 +67,16 @@ const Login = () => {
             <div className="form-control mt-6">
                 <button className="btn bg-blue hover:bg-blue text-white">Login</button>
             </div>
-
-            {loginError && <p className="text-center text-red mt-2">{loginError}</p>}
-            <p className="text-center mt-4">Do not have an account? <Link className="text-blue font-bold" to="/register">Register</Link></p>
-            <hr className="w-3/5 mx-auto my-3 "/>
-            <div className="flex justify-center items-center ">
-            <button onClick={handleGoogleSignin} className="mx-auto btn border-blue  w-fit ">
-                <FcGoogle className="text-blue text-2xl"></FcGoogle>
-                Login with Google
-            </button>
-            </div>
-
         </form>
+        {loginError && <p className="text-center text-red mt-2">{loginError}</p>}
+        <p className="text-center mt-4">Do not have an account? <Link className="text-blue font-bold" to="/register">Register</Link></p>
+        <hr className="w-3/5 mx-auto my-3 "/>
+        <div className="flex justify-center items-center ">
+        <button onClick={handleGoogleSignin} className="mx-auto btn border-blue  w-fit ">
+            <FcGoogle className="text-blue text-2xl"></FcGoogle>
+            Login with Google
+        </button>
+        </div>
     </div>
     </>
   );

@@ -30,7 +30,7 @@ const Router = createBrowserRouter([
       {
         path:'/details/:id',
         element: <PrivateRouter><Details></Details></PrivateRouter>,
-        loader: () => fetch('/assets/health.json')
+        loader: () => fetch('../../assets/health.json')
       },
       {
         path:'/doctors',

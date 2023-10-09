@@ -10,7 +10,7 @@ const Details = () => {
   useEffect(()=>{
     const findData = loadData.find(card => card.id === id)
     setCard(findData)
-  },[])
+  },[id,loadData])
 
   return (
     <div>

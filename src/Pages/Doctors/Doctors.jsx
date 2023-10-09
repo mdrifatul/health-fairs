@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Doctor from './Doctor';
+import Doctor from "./doctor";
 
 const Doctors = () => {
   const [doctorList , setDoctorlist] = useState([]);
@@ -12,13 +12,11 @@ const Doctors = () => {
 
 
   return (
-    <>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 my-10 w-11/12 mx-auto">
         {
           doctorList.map(card => <Doctor  key='' card={card}></Doctor>)
         }
       </div>
-    </>
   );
 };
 

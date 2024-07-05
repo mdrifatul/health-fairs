@@ -10,7 +10,7 @@ const Home = () => {
       <div data-aos='fade-up'><Banner></Banner></div>
       <Services></Services>
       <div data-aos='fade-right'><Research></Research></div>
-      <div data-aos='fade-left'><Consult></Consult></div>
+      <div data-aos='fade-up'><Consult></Consult></div>
       <div data-aos='fade-up'><Footer></Footer></div>
     </>
   );
